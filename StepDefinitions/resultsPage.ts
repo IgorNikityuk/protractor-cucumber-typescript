@@ -7,9 +7,7 @@ export = function () {
     let results = new ResultsPage();
 
     this.Then(/^Sign in button should be displayed$/, () => {
-        browser.sleep(2000)
         return expect(results.firstResultLink.isDisplayed()).to.eventually.equal(true);
-
     });
 
 }
