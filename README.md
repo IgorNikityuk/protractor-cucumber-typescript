@@ -29,13 +29,13 @@ https://nodejs.org/en/download/
 * Clone the repository into a folder
 * Go inside the folder and run following command from terminal/command prompt
 ```
-   npm install 
+   npm install
 ```
 * All the dependencies from package.json and ambient typings would be installed in node_modules folder.
 
 ####Run Scripts
 ```
-    npm test
+    npm test or protractor TypeScript/Config/config.js
 ```
 * The above command would create an output folder named 'Typescript' and transpile the .ts files.
 * It launches the Firefox Browser and run the scripts
