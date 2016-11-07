@@ -4,6 +4,6 @@ export class ResultsPage {
     public firstResultLink:any;
 
     constructor() {
-        this.firstResultLink = $("#logocont>a>img");
+        this.firstResultLink = $("#gb_70");
     }
 }
