@@ -35,7 +35,7 @@ https://nodejs.org/en/download/
 
 ####Run Scripts
 ```
-    npm test or protractor TypeScript/Config/config.js
+    npm test OR protractor TypeScript/Config/config.js
 ```
 * The above command would create an output folder named 'Typescript' and transpile the .ts files.
 * It launches the Firefox Browser and run the scripts
