@@ -1,7 +1,8 @@
-import {SearchPageObject} from '../Pages/searchPage';
+import { SearchPageObject } from '../Pages/searchPage';
 
 export = function () {
-    let search: SearchPageObject = new SearchPageObject();
+    let search = new SearchPageObject();
+    
     this.When(/^I type "(.*?)"$/, (text) => {
         return search.searchTextBox.sendKeys(text);
     });

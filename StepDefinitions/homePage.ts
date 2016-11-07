@@ -1,10 +1,8 @@
-import {browser} from 'protractor';
-import {SearchPageObject} from '../Pages/searchPage';
+import { browser } from 'protractor';
 let chai = require('chai').use(require('chai-as-promised'));
 let expect = chai.expect;
 
-export  = function(){
-    let search: SearchPageObject = new SearchPageObject();
+export = function(){
     
     this.Given(/^I am on google page$/, () => {
         return expect(browser.getTitle()).to.eventually.equal('Google');
